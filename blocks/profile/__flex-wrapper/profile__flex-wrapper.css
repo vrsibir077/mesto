@@ -1,0 +1,17 @@
+.profile__flex-wrapper {
+  display: flex;
+  gap: 0px 18px;
+}
+
+@media screen and (max-width: 930px) {
+  .profile__flex-wrapper {
+    margin: 0 0 14px 0;
+    gap: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .profile__flex-wrapper {
+    margin: 25px 0 8px 0;
+  }
+}

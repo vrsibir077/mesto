@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Проект Mesto - учебный проект от Яндекс.Практикум">
+	<meta name="author" content="Виктор Рейн">
+	<meta name="keywords" content="html, css, javascript">
+	<link rel="stylesheet" href="pages/index.css">
+	<title>Mesto Russia</title>
+</head>
+
+<body class="body">
+	<div class="page">
+		<!-- блок header-->
+		<header class="header">
+			<img class="header__logo" src="images/logo/logo_mesto-russia.svg" alt="Логотип">
+		</header>
+		<!-- блок main-->
+		<main>
+			<!-- cсекция profile-->
+			<section class="profile">
+				<img class="profile__avatar" src="images/profile_image.svg" alt="Фото профиля">
+				<div class="profile__info">
+					<div class="profile__flex-wrapper">
+						<h1 class="profile__title">Жак-Ив Кусто</h1>
+						<button class="profile__edit-button profile__about"></button>
+					</div>
+					<p class="profile__subtitle">Исследователь океана</p>
+				</div>
+				<button class="profile__add-button"></button>
+			</section>
+			<!-- cсекция elements-->
+			<section class="elements">
+				<ul class="elements__list">
+					<li class="elements__list-item">
+						<img class="elements__images" src="images/elements_image_1.jpg" alt="Фото Карачаевск">
+						<div class="elements__wrapper">
+							<h2 class="elements__title">Карачаевск</h2>
+							<button class="elements__group elements__group-active"></button>
+						</div>
+					</li>
+					<li class="elements__list-item">
+						<img class="elements__images" src="images/elements_image_2.jpg" alt="Фото Горы Эльбрус">
+						<div class="elements__wrapper">
+							<h2 class="elements__title">Гора Эльбрус</h2>
+							<button class="elements__group elements__group-active"></button>
+						</div>
+					</li>
+					<li class="elements__list-item">
+						<img class="elements__images" src="images/elements_image_3.jpg" alt="Фото Домбай">
+						<div class="elements__wrapper">
+							<h2 class="elements__title">Домбай</h2>
+							<button class="elements__group elements__group-active"></button>
+						</div>
+					</li>
+					<li class="elements__list-item">
+						<img class="elements__images" src="images/elements_image_2.jpg" alt="Фото Горы Эльбрус">
+						<div class="elements__wrapper">
+							<h2 class="elements__title">Гора Эльбрус</h2>
+							<button class="elements__group elements__group-active"></button>
+						</div>
+					</li>
+					<li class="elements__list-item">
+						<img class="elements__images" src="images/elements_image_3.jpg" alt="Фото Домбай">
+						<div class="elements__wrapper">
+							<h2 class="elements__title">Домбай</h2>
+							<button class="elements__group elements__group-active"></button>
+						</div>
+					</li>
+					<li class="elements__list-item">
+						<img class="elements__images" src="images/elements_image_1.jpg" alt="Фото Карачаево-Черкесия">
+						<div class="elements__wrapper">
+							<h2 class="elements__title">Карачаево-Черкесия</h2>
+							<button class="elements__group elements__group-active"></button>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<!-- блок footer-->
+		<footer class="footer">
+			<p class="footer__copyright">&copy; 2023 Mesto Russia</p>
+		</footer>
+	</div>
+	<!-- блок Popup-->
+	<section class="popup">
+		<div class="popup__content">
+			<button class="popup__close-button"></button>
+			<h2 class="popup__title">Редактировать профиль</h2>
+			<form class="popup__form">
+				<label class="popup__label">
+					<input class="popup__input popup__input_name" value="Жак-Ив Кусто" name="userName" type="text"
+						placeholder="Имя">
+				</label>
+				<label class="popup__label">
+					<input class="popup__input popup__input_job" value="Исследователь океана" name="userAbout" type="text"
+						placeholder="О себе">
+				</label>
+			</form>
+			<button class="popup__button">Сохранить</button>
+		</div>
+	</section>
+	<script src="pages/index.js" defer></script>
+</body>
+
+</html>
