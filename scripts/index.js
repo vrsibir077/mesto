@@ -5,21 +5,13 @@ const popupElement = document.querySelector('.popup');
 function handleClick(e) {
 	popupElement.classList.toggle('popup__opened');
 }
-
 aboutButtonElement.addEventListener('click', handleClick);
 closeButtonElement.addEventListener('click', handleClick);
 
-popupElement.addEventListener('click', (e) => {
-	if (e.target === e.currentTarget) {
-		popupElement.classList.toggle('popup__opened');
-	}
-});
+
 let formElement = document.querySelector('.popup__button');
 
-
-const popupButtonElement = document.querySelector('.popup__button');
-console.log(popupButtonElement);
-document.querySelector('.popup__button').onclick = clickPopupButton;
+formElement.addEventListener('click', clickPopupButton);
 
 function clickPopupButton(evt) {
 	evt.preventDefault();
@@ -31,6 +23,5 @@ function clickPopupButton(evt) {
 	document.querySelector('.profile__title').textContent = nameInput;
 	document.querySelector('.profile__subtitle').textContent = jobInput;
 }
-formElement.addEventListener('submit', clickPopupButton);
 
 formElement.addEventListener('click', handleClick);

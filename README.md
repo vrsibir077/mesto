@@ -39,7 +39,7 @@ ___
 * [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?type=design&node-id=0-1&t=MlwYJJ5YxGYcXBmB-0)
 ___
 ### Чек-лист Итоговой работы:
-* [Чек-лист](https://github.com/vrsibir077/russian-travel/blob/main/checklist-3.pdf)
+
 ___
 ### Ссылка на сайт:
-https://vrsibir077.github.io/russian-travel
+

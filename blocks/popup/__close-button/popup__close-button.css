@@ -7,7 +7,7 @@
   display: block;
   position: absolute;
   top: -40px;
-  left: 438px;
+	right: -40px;
   border: none;
   cursor: pointer;
   padding: 0;
@@ -24,6 +24,6 @@
     width: 20px;
     height: 20px;
     top: -36px;
-    left: 261px;
+    right: 0;
   }
 }
